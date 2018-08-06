@@ -21,6 +21,7 @@ body {
 .lists {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 
@@ -39,4 +40,5 @@ body {
     color: black;
     text-align: center;
     background-color: white;
+
 }
