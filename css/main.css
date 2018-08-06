@@ -1,4 +1,42 @@
-header{
-text-align: center;
-background-color: blue;
+.addListWrapper {
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.addlist {
+    margin: 40px;
+    width: 200px;
+    height: 20px;
+}
+
+body {
+    background-image: url(../img/ciudad.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lists {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.listHeader {
+    background-color: transparent;
+}
+
+.titulo {
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+.tasks {
+    color: black;
+    text-align: center;
+    background-color: white;
 }

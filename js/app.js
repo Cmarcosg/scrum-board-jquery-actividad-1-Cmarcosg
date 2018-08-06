@@ -3,14 +3,13 @@
       const createListString = name =>
         `<div class="list" id="${generateId('list')}">
             <div class="listHeader">
-                <h4>${name}</h4>
+                <h4 class="titulo">${name}</h4>
                 <button>X</button>
             </div>
-            <div class="tasks">               
-            </div>
             <div class="addTask">
-                <input type="text">
-                <button>Add task</button>
+            <input type="text">
+        </div>
+            <div class="tasks">               
             </div>
         </div>`
 
